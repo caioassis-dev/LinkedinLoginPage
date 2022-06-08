@@ -54,6 +54,7 @@ body {
   width: 100%;
   padding: 1.3rem 0;
   border: 1px solid lightgray;
+  margin-bottom: 1rem;
 }
 
 .group:nth-child(1) {
@@ -78,7 +79,7 @@ body {
 
 .linkedin-login {
   background-color: rgb(10, 102, 194);
-  color: black;
+  color: white;
   padding: 8px;
   border-radius: 4px;
 }
@@ -120,9 +121,39 @@ body {
 }
 
 .app-download:nth-child(1) {
-  background-color: url('./imagem/apple-button.png');
+  background-image: url('./imagem/apple-button.png');
 }
 
 .app-download:nth-child(2) {
-  background-color: url('./imagem/googleplay-button.png');
+  background-image: url('./imagem/googleplay-button.png');
+}
+
+/* ==========MOBILE==========*/
+
+@media (max-width: 1024px) {
+  .linkedin-wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    background-color: white;
+  }
+
+  .linkedin-wrapper {
+    width: 90%;
+  }
+
+  .linkedin-phone {
+    display: none;
+  }
+
+  .linkedin-continue {
+    width: 100%;
+  }
+
+  .group {
+    border: 1px solid transparent;
+  }
 }
