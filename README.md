@@ -8,4 +8,4 @@ Desafio de projeto da DIO tive de reconstruir a página de login do Linkedin. Pa
 
 ### Prévia da Landing Page:
   
-  ![Captura de Tela 2022-06-08 às 01 40 24](https://user-images.githubusercontent.com/61170444/172533726-66c0bd72-e7c9-41d9-93d4-82b924ca4082.png)
+  [![Captura de Tela 2022-06-08 às 01 40 24](https://user-images.githubusercontent.com/61170444/172533726-66c0bd72-e7c9-41d9-93d4-82b924ca4082.png)](https://caioassis-dev.github.io/LinkedinLoginPage/)
